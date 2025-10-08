@@ -3,7 +3,6 @@ from enum import Enum
 class Gender(Enum):
     MALE = "male"
     FEMALE = "female"
-    OTHER = "other"
 
 class Race(Enum):
     DWARF = "dwarf"
@@ -141,4 +140,5 @@ class BossType(Enum):
     MINOTAUR = "minotaur"
     DRAGON = "dragon"
     CYCLOPS = "cyclops"
+
     SIREN = "siren"
