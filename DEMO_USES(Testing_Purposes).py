@@ -177,7 +177,6 @@ if __name__ == "__main__":
     
     # Healing
     print("\nHealing")
-    print("-"*80)
     
     dwarf_warrior.take_damage(50)
     print(f"{dwarf_warrior.name} took 50 damage")
@@ -185,4 +184,5 @@ if __name__ == "__main__":
     
     healed = human_medic.heal_target(dwarf_warrior, 30)
     print(f"\n{human_medic.name} healed {dwarf_warrior.name} for {healed:.1f} HP")
+
     print(f"  HP: {dwarf_warrior.stats.health:.0f}/{dwarf_warrior.stats.max_health:.0f}")
