@@ -142,3 +142,48 @@ class BossType(Enum):
     CYCLOPS = "cyclops"
 
     SIREN = "siren"
+
+class Biome(Enum):
+    AQUATIC = "aquatic"
+    FOREST = "forest"
+    TUNDRA = "tundra"
+    MOUNTAIN = "mountain"
+    GRASSLAND = "grassland"
+    DESERT = "desert"
+    SWAMP = "swamp"
+    UNDERGROUND = "underground"
+
+class StructureType(Enum):
+    STORAGE_CENTER = "storage_center"
+    HOUSE = "house"
+    WELL = "well"
+    BARRACKS = "barracks"
+    TRAINING_GROUND = "training_ground"
+    FARM = "farm"
+    MINE = "mine"
+    FORGE = "forge"
+    MARKET = "market"
+
+class DisasterType(Enum):
+    TORRENTIAL_RAIN = "torrential_rain"
+    FIRE = "fire"
+    AVALANCHE = "avalanche"
+    EARTHQUAKE = "earthquake"
+    FLOOD = "flood"
+    BLIZZARD = "blizzard"
+    VOLCANIC_ERUPTION = "volcanic_eruption"
+    TORNADO = "tornado"
+
+class RaceRelation(Enum):
+    HOSTILE = "hostile"
+    NEUTRAL = "neutral"
+    FRIENDLY = "friendly"
+    ALLIED = "allied"
+
+class EventType(Enum):
+    INVASION = "invasion"
+    NATURAL_DISASTER = "natural_disaster"
+    DISCOVERY = "discovery"
+    DISEASE = "disease"
+    RESOURCE_ABUNDANCE = "resource_abundance"
+    CELEBRATION = "celebration"
