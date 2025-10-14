@@ -173,6 +173,7 @@ class DisasterType(Enum):
     BLIZZARD = "blizzard"
     VOLCANIC_ERUPTION = "volcanic_eruption"
     TORNADO = "tornado"
+    DISEASE = "disease"
 
 class RaceRelation(Enum):
     HOSTILE = "hostile"
@@ -187,3 +188,4 @@ class EventType(Enum):
     DISEASE = "disease"
     RESOURCE_ABUNDANCE = "resource_abundance"
     CELEBRATION = "celebration"
+
