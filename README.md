@@ -59,14 +59,6 @@ dwarf_fortress/
 ---
 
 
-## Cómo Funciona la IA de Priorización
-
-1. El jugador añade una acción al **buffer** (ej: `Construir almacén`).
-2. El `decisionMaker` descompone la meta en subtareas (`Minar piedra`, `Transportar madera`, `Construir`).
-3. Cada subtarea entra en la **Priority Queue** con un peso calculado según:
-   ```python
-   prioridad = urgencia * escasez_recursos * riesgo + bonus_habilidad_enano
-
 ## Requisitos
 
 Python 3.8+
