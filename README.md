@@ -29,6 +29,8 @@ La toma de decisiones se basa en un **sistema de priorización avanzado** implem
 ---
 
 ## Estructura del Proyecto
+
+```plaintext
 dwarf_fortress/
 ├── classes/
 │   ├── animals/              # Comportamiento y tipos de fauna
@@ -53,7 +55,7 @@ dwarf_fortress/
 │   ├── structures/           # Edificios y construcciones
 │   └── tasksystem/           # Tareas, estados y ejecución
 ├── game.py                   # Bucle principal y renderizado con Pygame
-└── README.md
+
 
 ---
 
