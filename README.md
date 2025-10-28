@@ -29,7 +29,7 @@ La toma de decisiones se basa en un **sistema de priorización avanzado** implem
 ---
 
 ## Estructura del Proyecto
-
+```plaintext
 dwarf_fortress/
 ├── classes/
 │   ├── animals/
@@ -55,7 +55,7 @@ dwarf_fortress/
 │   └── tasksystem/
 ├── game.py
 
-
+```
 ---
 
 
