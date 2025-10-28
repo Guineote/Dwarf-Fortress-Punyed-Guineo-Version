@@ -9,8 +9,7 @@ La toma de decisiones se basa en un **sistema de priorización avanzado** implem
 - Urgencia de la necesidad (agua, comida, seguridad)
 - Disponibilidad de recursos y enanos
 - Habilidades individuales (minero, leñador, guerrero, etc.)
-- Riesgos y costos asociados
-- Estado emocional y físico de los enanos (necesidades, cansancio, moral)
+
 
 ---
 
@@ -20,9 +19,7 @@ La toma de decisiones se basa en un **sistema de priorización avanzado** implem
 - **Colonia autónoma con IA**: Los enanos forman una sociedad emergente que prioriza, delega y adapta tareas.
 - **Sistema de tareas dinámico** basado en `PriorityQueue` para máxima eficiencia.
 - **Simulación profunda**:
-  - Necesidades fisiológicas y emocionales (hambre, sed, sueño, felicidad)
   - Habilidades y profesiones especializadas
-  - Ciclo día/noche, clima y biomas
   - Eventos aleatorios (tormentas, ataques, migraciones)
 - **Motor gráfico con Pygame** en `game.py` para visualización en 2D.
 
