@@ -53,7 +53,7 @@ dwarf_fortress/
 │   ├── structures/           # Edificios y construcciones
 │   └── tasksystem/           # Tareas, estados y ejecución
 ├── game.py                   # Bucle principal y renderizado con Pygame
-
+└── README.md
 
 ---
 
