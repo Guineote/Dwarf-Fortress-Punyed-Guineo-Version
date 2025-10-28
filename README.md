@@ -29,3 +29,42 @@ La toma de decisiones se basa en un **sistema de priorización avanzado** implem
 ---
 
 ## Estructura del Proyecto
+dwarf_fortress/
+├── classes/
+│   ├── animals/              # Comportamiento y tipos de fauna
+│   ├── biome_system/         # Generación de biomas y recursos naturales
+│   ├── body_parts/           # Sistema de lesiones y anatomía
+│   ├── characters/           # Lógica base de entidades vivas
+│   ├── colony_dwarves/       # Enanos de la colonia y sus estados
+│   ├── colony_with_ai/       # Núcleo de la IA colectiva
+│   ├── data_structures/      # Estructuras personalizadas (colas, grafos, etc.)
+│   ├── decisionMaker/        # Algoritmos de toma de decisiones
+│   ├── demo_colony_ai/       # Ejemplos y pruebas de IA
+│   ├── entity_Creation/      # Fábrica de entidades
+│   ├── enums/                # Enumeraciones del juego
+│   ├── equiment/             # Herramientas, armas y armaduras
+│   ├── GameObjects/          # Objetos interactivos del mundo
+│   ├── jobManager/           # Gestión y asignación de trabajos
+│   ├── name_generator/       # Nombres épicos para enanos y lugares
+│   ├── needsystem/           # Sistema de necesidades (Maslow para enanos)
+│   ├── plants/               # Cultivos, árboles y vegetación
+│   ├── random_events/        # Eventos emergentes y narrativa
+│   ├── stats/                # Estadísticas y progresión
+│   ├── structures/           # Edificios y construcciones
+│   └── tasksystem/           # Tareas, estados y ejecución
+├── game.py                   # Bucle principal y renderizado con Pygame
+
+
+---
+
+## Cómo Funciona la IA de Priorización
+
+1. El jugador añade una acción al **buffer** (ej: `Construir almacén`).
+2. El `decisionMaker` descompone la meta en subtareas (`Minar piedra`, `Transportar madera`, `Construir`).
+3. Cada subtarea entra en la **Priority Queue** con un peso calculado según:
+   ```python
+   prioridad = urgencia * escasez_recursos * riesgo + bonus_habilidad_enano
+## Requisitos
+
+Python 3.8+
+Pygame
