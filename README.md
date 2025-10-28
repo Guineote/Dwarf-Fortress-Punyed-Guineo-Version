@@ -66,6 +66,7 @@ dwarf_fortress/
 3. Cada subtarea entra en la **Priority Queue** con un peso calculado según:
    ```python
    prioridad = urgencia * escasez_recursos * riesgo + bonus_habilidad_enano
+
 ## Requisitos
 
 Python 3.8+
