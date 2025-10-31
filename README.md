@@ -56,7 +56,7 @@ dwarf_fortress/
 ---
 
 ## Nuestro mundo
-![Dwarf Fortress](Assets/Img/casita.png)
+![Dwarf Fortress](Assets/Img/casitas.png)
 
 
 ## Requisitos
