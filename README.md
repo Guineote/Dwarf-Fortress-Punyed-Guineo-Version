@@ -15,7 +15,7 @@ La toma de decisiones se basa en un **sistema de priorización avanzado** implem
 
 ## Características Principales
 
-- **Control indirecto**: El jugador no micromaneja. Solo indica *"Construir casa"* o *"Cazar aniaml"*. La IA decide el plan.
+- **Control indirecto**: El jugador no micromaneja. Solo indica *"Construir casa"* o *"Cazar animal"*. La IA decide el plan.
 - **Colonia autónoma con IA**: Los enanos forman una sociedad emergente que prioriza, delega y adapta tareas.
 - **Sistema de tareas dinámico** basado en `PriorityQueue` para máxima eficiencia.
 - **Simulación profunda**:
