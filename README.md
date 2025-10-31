@@ -55,6 +55,9 @@ dwarf_fortress/
 ```
 ---
 
+## Nuestro mundo
+<image-card alt="Dwarf Fprtress" src="Assets/Img/casita.png" ></image-card>
+
 
 ## Requisitos
 
