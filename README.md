@@ -56,8 +56,7 @@ dwarf_fortress/
 ---
 
 ## Nuestro mundo
-![Dwarf Fortress]("Assets/Img/centro de acopio.png")
-
+![Centro de Acopio](Assets/Img/centro%20de%20acopio.png)
 
 ## Requisitos
 
