@@ -56,7 +56,7 @@ dwarf_fortress/
 ---
 
 ## Nuestro mundo
-<image-card alt="Dwarf Fprtress" src="Dwarf-Fortress-Punyed-Guineo-Version/Assets/Img/casita.png" ></image-card>
+![Dwarf Fortress](Assets/Img/casita.png)
 
 
 ## Requisitos
