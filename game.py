@@ -469,7 +469,6 @@ while True:
         print("Activando Menu")
         menu_visible = not menu_visible
         pygame.time.delay(150)  
-# En el bucle principal, dentro de la sección de keys = pygame.key.get_pressed(), agrega esto:
     if keys[pygame.K_t]:
         print("🚀 INICIANDO PRUEBA DE ESTRÉS: 50 TAREAS SIMULADAS DESDE MENÚ!")
         actions = ["Talar arbol", "Minar minerales", "Atacar dragon", "Obtener agua", "Cazar animal",
@@ -586,3 +585,4 @@ while True:
     pygame.display.flip()
     clock.tick(60)
     
+
